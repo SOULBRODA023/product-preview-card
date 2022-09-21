@@ -1,0 +1,102 @@
+:root {
+    --DarkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --DarkGrayishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{background-color: var(--Cream);
+   
+}
+
+
+
+
+.container{display:flex;
+flex-flow: row  wrap;
+justify-content: center;
+position: relative;
+top: 7.8125em;
+left:6rem;
+}
+
+
+
+.pic1{width:18em;
+    height:23em;
+    display: block;
+    border-radius: 0.7em 0 0 0.7em;
+}
+
+
+.info{background-color: var(--White);
+border-radius:0 0.7em 0.7em 0em ;
+width:18em;
+height:23em;
+padding:1.9rem;
+}
+
+
+
+h4{letter-spacing: 5px;
+font-size: 10px;
+color:var(--DarkGrayishBlue);
+font-family: "montserrat",sans-serif;}
+h1{position:relative;
+top:10px;
+font-size:35px;
+line-height:2rem;
+font-family: 'Fraunces', serif;
+}
+#more{padding-top:25px ;
+font-size:12px;
+color: var(--DarkGrayishBlue);
+font-family: "montserrat",sans-serif;
+    
+}
+
+.pricing{padding-top: 20px;}
+#new{ font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: var(--DarkCyan)}
+#old{ font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 10px;
+color: var(--DarkGrayishBlue)}
+
+
+    .button{font-weight: 700;
+        width: 14rem;
+        height: 2.5rem;
+        border: none;
+        border-radius: 6px;
+        text-align: center;
+        margin-top: 20px;
+        background-color: var(--DarkCyan);
+        color:var(--White);
+        border:none;
+    }
+    .button:active{background-color:var(--VeryDarkBlue);
+    cursor: pointer;}
+
+.attribution{display:block;
+    text-align: center;
+position:relative;
+top:27rem;
+right:28.5rem;}
+ a:hover{color:var(--DarkCyan)}
+ 
+    
+
+
+
+
+
